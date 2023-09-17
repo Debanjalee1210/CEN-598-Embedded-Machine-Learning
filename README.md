@@ -20,7 +20,9 @@ Implement a state machine with the following states and transitions:
 •	Transition from 'Green' to 'Blue' state after a 3-second delay.
 •	Transition from 'Green' to 'Dark' state upon pressing SW i.e., receiving input from BLE app.
 One possible method to implement the switch was through Bluetooth communication with a phone using third party app like LightBLue or nRF connect mobile app, in our project we have utilized the nRF connect Mobile app which allows the user to send commands to indicate a switch press.
-Code Implementation: 
+
+Code Implementation:
+-------------------------
 We implemented the state machine using C source code and used the Arduino IDE adhering to the project requirements. To summarize our implementation:
 •	We utilized the inbuilt RGB LED on the Arduino Nano BLE Sense board to represent the different states as follows: 
 o	DARK_STATE: This state represented LEDs when all are turned off

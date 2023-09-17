@@ -5,7 +5,9 @@ LED_BLE_SWITCH Project :
 Introduction: 
 --------------
 The BMI/CEN 598 Mini Project 1 involved the development of a state machine using the Arduino Nano BLE Sense development board. This state machine utilizes the board's inbuilt RGB LED connected to pins 22,23,24 respectively, to simulate the behavior of a push button switch since there is on-board switch in the Arduino Nano BLE Sense board, we are implementing a soft switch using nRF connect Mobile app using BLE protocol for transition between different states. The primary goal of this project was to create a functional state machine that responds to user input from the BLE application and changes LED colors accordingly. This report provides an overview of the project, its implementation, challenges faced, and lessons learned.
-Project Description: 
+
+Project Description:
+-----------------------
 The project requirements were as follows:
 Utilize the Arduino Nano BLE Sense board with an inbuilt RGB LED connected to pins 22, 23, and 24.
 Implement a state machine with the following states and transitions:

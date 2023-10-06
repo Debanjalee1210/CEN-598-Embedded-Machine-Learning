@@ -16,7 +16,7 @@
   - Arduino Nano 33 BLE Sense
 
   created 20 JSeptember 2023
-  by Debanjalee Roy and Dheeraj Kumar
+  by Debanjalee Roy
 */
 //include library for IMU sensors
 #include <Arduino_LSM9DS1.h>
